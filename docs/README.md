@@ -21,7 +21,7 @@ config:
       -
         title: 开发案例
         icon: twemoji:rocket
-        details: 需求如何落地的解决方案
+        details: 需求落地的解决方案
       -
         title: 工具集
         icon: twemoji:card-file-box
