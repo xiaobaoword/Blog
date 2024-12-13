@@ -1,0 +1,27 @@
+{
+  "name": "我的成长笔记",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "author": "KOL标签化系统侯晓宝 <xiaobao@microdreams.comgit>",
+  "license": "MIT",
+  "engines": {
+    "node": "^18.20.0 || >=20.0.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:preview": "http-server docs/.vuepress/dist",
+    "vp-update": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.18",
+    "vuepress": "2.0.0-rc.18",
+    "vuepress-theme-plume": "1.0.0-rc.120",
+    "http-server": "^14.1.1",
+    "vue": "^3.5.13",
+    "sass-embedded": "^1.82.0",
+    "typescript": "^5.7.2"
+  }
+}
