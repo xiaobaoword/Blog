@@ -20,11 +20,11 @@ config:
         details: 数据结构和算法、计算机操作系统、计算机网络、计算机组成原理
       -
         title: Go
-        icon: twemoji:open-book
+        icon: vscode-icons:file-type-go-gopher
         details: Go
       -
         title: PHP
-        icon: twemoji:open-book
+        icon: vscode-icons:file-type-php2
         details: PHP
       -
         title: 工具集
