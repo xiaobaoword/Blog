@@ -13,6 +13,25 @@ export const navbar = defineNavbarConfig([
     // items: [{ text: '示例', link: '/notes/demo/README.md' }]
   // },
   { 
+    text: '开发案例', 
+    items: [
+      { 
+        text: '微信开发', 
+        items: [
+          { text: '开放平台-授权登录', link: '/notes/examples/wechat/开放平台-授权登录.md' },
+          { text: '开放平台-授权管理', link: '/notes/examples/wechat/开放平台-授权管理.md' },
+        ]
+      },
+      { 
+        text: 'AI应用开发', 
+        items: [
+          { text: 'chatgpt', link: '/notes/demo/README.md' },
+          { text: '豆包', link: '/notes/demo/README.md' },
+        ]
+      },
+    ]
+  },
+  { 
     text: '基础四大件', 
     items: [
       { text: '数据结构和算法', link: '/notes/demo/README.md' },
@@ -44,25 +63,6 @@ export const navbar = defineNavbarConfig([
       { 
         text: '源码理解', 
         link: '/notes/demo/README.md' 
-      },
-    ]
-  },
-  { 
-    text: '开发案例', 
-    items: [
-      { 
-        text: '微信开发', 
-        items: [
-          { text: '开放平台-授权登录', link: '/notes/examples/wechat/开放平台-授权登录.md' },
-          { text: '开放平台-授权管理', link: '/notes/examples/wechat/开放平台-授权管理.md' },
-        ]
-      },
-      { 
-        text: 'AI应用开发', 
-        items: [
-          { text: 'chatgpt', link: '/notes/demo/README.md' },
-          { text: '豆包', link: '/notes/demo/README.md' },
-        ]
       },
     ]
   },

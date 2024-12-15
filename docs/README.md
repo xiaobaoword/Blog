@@ -11,17 +11,21 @@ config:
     type: features
     features:
       -
+        title: 开发案例
+        icon: twemoji:rocket
+        details: 需求落地的解决方案
+      -
         title: 基础四大件
         icon: twemoji:laptop-computer
         details: 数据结构和算法、计算机操作系统、计算机网络、计算机组成原理
       -
-        title: 开发语言
+        title: Go
         icon: twemoji:open-book
-        details: Go、PHP
+        details: Go
       -
-        title: 开发案例
-        icon: twemoji:rocket
-        details: 需求落地的解决方案
+        title: PHP
+        icon: twemoji:open-book
+        details: PHP
       -
         title: 工具集
         icon: twemoji:card-file-box
