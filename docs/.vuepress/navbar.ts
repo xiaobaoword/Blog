@@ -22,48 +22,16 @@ export const navbar = defineNavbarConfig([
     ]
   },
   { 
-    text: 'Golang', 
+    text: '开发语言', 
     items: [
-      { 
-        text: '相关用法', 
-        link: '/notes/demo/README.md' 
-      },
-      { 
-        text: '源码理解', 
-        link: '/notes/demo/README.md' 
-      },
-    ]
-  },
-  { 
-    text: 'PHP', 
-    items: [
-      { 
-        text: '相关用法', 
-        link: '/notes/demo/README.md' 
-      },
-      { 
-        text: '源码理解', 
-        link: '/notes/demo/README.md' 
-      },
+      { text: 'Go', link: '/notes/demo/README.md' },
+      { text: 'PHP', link: '/notes/demo/README.md' },
     ]
   },
   { 
     text: '开发案例', 
     items: [
-      { 
-        text: '微信开发', 
-        items: [
-          { text: '开放平台-授权登录', link: '/notes/examples/wechat/开放平台-授权登录.md' },
-          { text: '开放平台-授权管理', link: '/notes/examples/wechat/开放平台-授权管理.md' },
-        ]
-      },
-      { 
-        text: 'AI应用开发', 
-        items: [
-          { text: 'chatgpt', link: '/notes/demo/README.md' },
-          { text: '豆包', link: '/notes/demo/README.md' },
-        ]
-      },
+      { text: '微信扫码登录', link: '/notes/demo/README.md' },
     ]
   },
   { 
