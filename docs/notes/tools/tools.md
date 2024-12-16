@@ -7,5 +7,5 @@ list:
     link: https://www.qianbo.com.cn/Tool/Url-Encode.html
     avatar: https://www.qianbo.com.cn/favicon.ico
     desc: 在线URL网址编码、解码
-permalink: /article/b6hkt9gn/
+permalink: /tools/
 ---
