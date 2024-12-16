@@ -30,4 +30,5 @@ config:
         title: 工具集
         icon: twemoji:card-file-box
         details: 优秀的工具网站导航
+        link: /notes/tools/tools.md
 ---

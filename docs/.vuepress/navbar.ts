@@ -69,7 +69,7 @@ export const navbar = defineNavbarConfig([
   { 
     text: '工具集', 
     items: [
-      { text: '示例', link: '/notes/demo/README.md' },
+      { text: 'UrlEncode', icon:'https://www.qianbo.com.cn/favicon.ico', link: 'https://www.qianbo.com.cn/Tool/Url-Encode.html' },
     ]
   },
 ])
