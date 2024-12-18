@@ -20,9 +20,9 @@ config:
         icon: twemoji:laptop-computer
         details: 数据结构和算法、计算机操作系统、计算机网络、计算机组成原理
       -
-        title: Go
+        title: Golang
         icon: vscode-icons:file-type-go-gopher
-        details: Go
+        details: Golang
       -
         title: PHP
         icon: vscode-icons:file-type-php2
