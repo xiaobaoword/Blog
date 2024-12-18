@@ -14,6 +14,7 @@ config:
         title: 开发案例
         icon: twemoji:rocket
         details: 需求落地的解决方案
+        link: /notes/examples/examples.md
       -
         title: 基础四大件
         icon: twemoji:laptop-computer
