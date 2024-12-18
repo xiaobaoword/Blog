@@ -1,8 +1,12 @@
 ---
-title: 学习笔记
+title: 学习笔记-Redis核心技术与实战
 createTime: 2024/12/18 16:50:32
-permalink: /middleware/redis/学习笔记/
+permalink: /middleware/redis/学习笔记-Redis核心技术与实战/
 ---
+
+## 学习资料
+
+极客时间-Redis核心技术与实战 蒋德钧
 
 
 
@@ -11,7 +15,6 @@ permalink: /middleware/redis/学习笔记/
 ### 概念
 
 Redis是键值数据库
-
 
 
 ### 学习方法

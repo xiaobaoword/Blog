@@ -5,5 +5,3 @@ permalink: /middleware/redis/
 ---
 
 
-学习资料：
-- 极客时间-Redis核心技术与实战

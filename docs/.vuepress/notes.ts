@@ -15,7 +15,7 @@ const basicsOperatingSystemNote = defineNoteConfig({
 const middlewareRedisNote = defineNoteConfig({
   dir: 'middleware/redis',
   link: '/middleware/redis',
-  sidebar: ['', '学习笔记', '源码理解-1' ],
+  sidebar: ['', '学习笔记-Redis核心技术与实战', '源码理解-1' ],
 })
 const middlewareKafkaNote = defineNoteConfig({
   dir: 'middleware/kafka',
