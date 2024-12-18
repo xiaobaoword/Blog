@@ -73,12 +73,14 @@ export const navbar = defineNavbarConfig([
         text: 'Redis', 
         items: [
           { text: '学习笔记', link: '/notes/middleware/redis/学习笔记.md' },
+          { text: '源码理解-1', link: '/notes/middleware/redis/源码理解-1.md' },
         ]
       },
       { 
         text: 'Kafka', 
         items: [
           { text: '学习笔记', link: '/notes/middleware/kafka/学习笔记.md' },
+          { text: '源码理解-1', link: '/notes/middleware/redis/源码理解-1.md' },
         ]
       },
     ]
