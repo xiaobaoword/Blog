@@ -35,7 +35,7 @@ export const navbar = defineNavbarConfig([
     text: '基础四大件', 
     items: [
       { text: '数据结构和算法', link: '/notes/demo/README.md' },
-      { text: '计算机操作系统', link: '/notes/basics/计算机操作系统.md' },
+      { text: '计算机操作系统', link: '/notes/basics/计算机操作系统/README.md' },
       { text: '计算机网络', link: '/notes/demo/README.md' },
       { text: '计算机组成原理', link: '/notes/demo/README.md' },
     ]
@@ -63,6 +63,23 @@ export const navbar = defineNavbarConfig([
       { 
         text: '源码理解', 
         link: '/notes/demo/README.md' 
+      },
+    ]
+  },
+  { 
+    text: '中间件', 
+    items: [
+      { 
+        text: 'Redis', 
+        items: [
+          { text: '学习笔记', link: '/notes/middleware/redis/学习笔记.md' },
+        ]
+      },
+      { 
+        text: 'Kafka', 
+        items: [
+          { text: '学习笔记', link: '/notes/middleware/kafka/学习笔记.md' },
+        ]
       },
     ]
   },

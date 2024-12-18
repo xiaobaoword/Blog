@@ -5,7 +5,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: '我的成长笔记',
+  title: '我的学习笔记',
   description: '个人博客',
 
   bundler: viteBundler(),

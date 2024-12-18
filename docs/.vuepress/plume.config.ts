@@ -12,7 +12,7 @@ export default defineThemeConfig({
 
   profile: {
     avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: '我的成长笔记',
+    name: '我的学习笔记',
     description: '个人博客',
     // circle: true,
     // location: '',

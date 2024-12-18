@@ -4,7 +4,7 @@ externalLinkIcon: false
 config:
   -
     type: text-image
-    title: 我的成长笔记
+    title: 我的学习笔记
     description: 在职业生涯中成长总结的地方，预计写四个系列：基础四大件系列，开发语言系列，开发案例系列，工具集系列。
     image: /images/plume-1.svg
   -
@@ -27,6 +27,10 @@ config:
         title: PHP
         icon: vscode-icons:file-type-php2
         details: PHP
+      -
+        title: 中间件
+        icon: twemoji:balance-scale
+        details: Redis、Kafka
       -
         title: 工具集
         icon: twemoji:card-file-box
