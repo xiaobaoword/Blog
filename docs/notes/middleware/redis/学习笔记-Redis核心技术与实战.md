@@ -52,7 +52,7 @@ Redis 支持多样的 value 类型，包括了 String、哈希表、列表、集
 - PUT：新写入或更新一个 key-value 对；
 - GET：根据一个 key 读取相应的 value 值；
 - DELETE：根据一个 key 删除整个 key-value 对；
-- SCAN：查询一个 key 在相应条件内的数据
+- SCAN：查询一个 key 在相应条件内的数据；
 
 #### 存储位置
 
