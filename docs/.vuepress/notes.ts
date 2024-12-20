@@ -6,17 +6,18 @@ const demoNote = defineNoteConfig({
   sidebar: ['', 'foo', 'bar'],
 })
 
-const basicsOperatingSystemNote = defineNoteConfig({
+const basicsOperatingSystem1Note = defineNoteConfig({
   dir: 'basics/计算机操作系统',
   link: '/basics/计算机操作系统',
   sidebar: ['', '概述','进程'],
 })
 
-const middlewareRedisNote = defineNoteConfig({
-  dir: 'middleware/redis',
-  link: '/middleware/redis',
-  sidebar: ['', '学习笔记-Redis核心技术与实战', '源码理解-1' ],
+const middlewareRedis1Note = defineNoteConfig({
+  dir: 'middleware/redis/Redis核心技术与实战',
+  link: '/middleware/redis/Redis核心技术与实战',
+  sidebar: ['', '基本架构' ],
 })
+
 const middlewareKafkaNote = defineNoteConfig({
   dir: 'middleware/kafka',
   link: '/middleware/kafka',
@@ -28,8 +29,8 @@ export const notes = defineNotesConfig({
   link: '/',
   notes: [
     demoNote, 
-    basicsOperatingSystemNote,
-    middlewareRedisNote,
+    basicsOperatingSystem1Note,
+    middlewareRedis1Note,
     middlewareKafkaNote
   ],
 })

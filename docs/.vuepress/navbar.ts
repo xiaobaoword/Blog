@@ -72,8 +72,7 @@ export const navbar = defineNavbarConfig([
       { 
         text: 'Redis', 
         items: [
-          { text: '学习笔记-Redis核心技术与实战', link: '/notes/middleware/redis/学习笔记-Redis核心技术与实战.md' },
-          { text: '源码理解-1', link: '/notes/middleware/redis/源码理解-1.md' },
+          { text: 'Redis核心技术与实战', link: '/notes/middleware/redis/Redis核心技术与实战/README.md' },
         ]
       },
       { 
