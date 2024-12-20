@@ -2,13 +2,6 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export const navbar = defineNavbarConfig([
   { 
-    text: '开发案例', 
-    items: [
-      { text: '微信开发', link: '/demo/README.md' },
-      { text: 'AI开发', link: '/demo/README.md' },
-    ]
-  },
-  { 
     text: '基础四大件', 
     items: [
       { 
@@ -30,6 +23,13 @@ export const navbar = defineNavbarConfig([
     items: [
       { text: 'Redis', link: '/middleware/redis/README.md' },
       { text: 'Kafka', link: '/middleware/kafka/README.md' },
+    ]
+  },
+  { 
+    text: '开发案例', 
+    items: [
+      { text: '微信开发', link: '/demo/README.md' },
+      { text: 'AI开发', link: '/demo/README.md' },
     ]
   },
   { text: '在线导航', link: '/tools/', icon: 'fa-location-arrow' },
