@@ -24,7 +24,7 @@ const basicsOperatingSystemNote = defineNoteConfig({
       prefix: '第2章 进程与线程',
       collapsed: false,
       items: [
-        '进程',
+        '进程与线程',
       ],
     },
   ],

@@ -10,6 +10,11 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
 
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/plume-1.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/plume-1.svg' }],
+  ],
+
   theme: plumeTheme({
     // 添加您的部署域名
     // hostname: 'https://your_site_url',
