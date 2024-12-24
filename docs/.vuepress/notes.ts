@@ -1,11 +1,5 @@
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
-const demoNote = defineNoteConfig({
-  dir: 'demo',
-  link: '/demo',
-  sidebar: ['', 'foo', 'bar'],
-})
-
 const basicsOperatingSystemNote = defineNoteConfig({
   dir: 'basics/计算机操作系统',
   link: '/basics/计算机操作系统',
@@ -67,6 +61,46 @@ const basicsDataStructureAlgorithmNote = defineNoteConfig({
   ]
 })
 
+const basicsOrganizationArchitectureNote = defineNoteConfig({
+  dir: 'basics/计算机组成原理',
+  link: '/basics/计算机组成原理',
+  sidebar: [
+    '',
+    {
+      text: '第1章 计算机系统概述',
+      prefix: '第1章 计算机系统概述',
+      collapsed: false,
+      items: [
+        '1.1 计算机的发展历程',
+      ],
+    },
+    {
+      text: '第2章 数据的标识和运算',
+      prefix: '第2章 数据的标识和运算',
+      collapsed: false,
+      items: [
+        '2.1 数制与编码',
+      ],
+    },
+  ]
+})
+
+const basicsNetworkNote = defineNoteConfig({
+  dir: 'basics/计算机网络',
+  link: '/basics/计算机网络',
+  sidebar: [
+    '',
+    {
+      text: '第1章 计算机网络体系结构',
+      prefix: '第1章 计算机网络体系结构',
+      collapsed: false,
+      items: [
+        '1.1 计算机网络概述',
+      ],
+    },
+  ]
+})
+
 const middlewareRedisNote = defineNoteConfig({
   dir: 'middleware/redis',
   link: '/middleware/redis',
@@ -78,6 +112,7 @@ const middlewareRedisNote = defineNoteConfig({
       collapsed: false,
       items: [
         '基本架构',
+        '数据结构',
       ],
     },
   ],
@@ -89,14 +124,28 @@ const middlewareKafkaNote = defineNoteConfig({
   sidebar: ['', '学习笔记', '源码理解-1' ],
 })
 
+
+const examplesHighConcurrencyFlashSaleSystemNote = defineNoteConfig({
+  dir: 'examples/高并发促销活动系统开发',
+  link: '/examples/高并发促销活动系统开发',
+  sidebar: [
+    '',
+    '线上抽奖',
+  ]
+})
+
+
+
 export const notes = defineNotesConfig({
   dir: 'notes',
   link: '/',
   notes: [
-    demoNote, 
     basicsOperatingSystemNote,
     basicsDataStructureAlgorithmNote,
+    basicsOrganizationArchitectureNote,
+    basicsNetworkNote,
     middlewareRedisNote,
-    middlewareKafkaNote
+    middlewareKafkaNote,
+    examplesHighConcurrencyFlashSaleSystemNote,
   ],
 })
