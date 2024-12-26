@@ -32,7 +32,9 @@ config:
 
 ### 更新记录
 
-### [2024-12-25](https://github.com/xiaobaoword/Blog/commit/030f0b18f67faf6f29492330a64ba5f6dfe56b8a)
+### [2024-12-26](https://github.com/xiaobaoword/Blog/commit/030f0b18f67faf6f29492330a64ba5f6dfe56b8a)
+
+- 计算机操作系统 2.1.6
 
 
 
