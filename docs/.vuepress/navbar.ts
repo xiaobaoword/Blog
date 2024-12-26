@@ -4,11 +4,10 @@ export const navbar = defineNavbarConfig([
   { 
     text: '基础四大件', 
     items: [
-      { 
-        text: '数据结构和算法', link: '/basics/数据结构和算法/README.md'},
       { text: '计算机操作系统', link: '/basics/计算机操作系统/README.md' },
-      { text: '计算机网络', link: '/basics/计算机网络/README.md' },
       { text: '计算机组成原理', link: '/basics/计算机组成原理/README.md' },
+      { text: '计算机网络', link: '/basics/计算机网络/README.md' },
+      { text: '数据结构', link: '/basics/数据结构/README.md'},
     ]
   },
   { 

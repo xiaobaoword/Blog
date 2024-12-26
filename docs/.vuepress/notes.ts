@@ -18,15 +18,15 @@ const basicsOperatingSystemNote = defineNoteConfig({
       prefix: '第2章 进程与线程',
       collapsed: false,
       items: [
-        '进程与线程',
+        '2.1 进程与线程',
       ],
     },
   ],
 })
 
 const basicsDataStructureAlgorithmNote = defineNoteConfig({
-  dir: 'basics/数据结构和算法',
-  link: '/basics/数据结构和算法',
+  dir: 'basics/数据结构',
+  link: '/basics/数据结构',
   sidebar: [
     '',    
     {
@@ -40,22 +40,8 @@ const basicsDataStructureAlgorithmNote = defineNoteConfig({
       prefix: '第2章 线性表',
       collapsed: false,
       items: [
-        '线性表',
-      ],
-    },
-    {
-      text: '算法题',
-      prefix: '算法题',
-      collapsed: false,
-      items: [
-        {
-          text: '数组',
-          prefix: '数组',
-          collapsed: true,
-          items: [
-            '螺旋矩阵II',
-          ],
-        },
+        '2.1 线性表的定义和基本操作',
+        '2.2 线性表的顺序表示',
       ],
     },
   ]

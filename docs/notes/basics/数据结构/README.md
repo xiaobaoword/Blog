@@ -1,7 +1,7 @@
 ---
-title: 数据结构和算法
+title: 数据结构
 createTime: 2024/12/18 10:40:11
-permalink: /basics/数据结构和算法/
+permalink: /basics/数据结构/
 ---
 
 

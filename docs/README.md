@@ -5,7 +5,7 @@ config:
   -
     type: text-image
     title: 格物、致知
-    description: 在职业生涯中学习总结的地方，预计写四个系列：开发案例系列、基础四大件系列、开发语言系列、中间件系列。
+    description: 莫听穿林打叶声，何妨吟啸且徐行<br><br>在职业生涯中学习总结的地方，预计写四个系列：开发案例系列、基础四大件系列、开发语言系列、中间件系列。 
     image: /images/plume-1.svg
   -
     type: features
@@ -13,7 +13,7 @@ config:
       -
         title: 基础四大件
         icon: twemoji:open-book
-        details: 数据结构和算法、计算机操作系统、计算机网络、计算机组成原理
+        details: 数据结构、计算机操作系统、计算机网络、计算机组成原理
       -
         title: 开发语言
         icon: twemoji:laptop-computer
@@ -21,9 +21,26 @@ config:
       -
         title: 中间件
         icon: twemoji:balance-scale
-        details: Redis、Kafka
+        details: Redis、Kafka、Elasticsearch
       -
         title: 开发案例
         icon: twemoji:rocket
         details: 需求落地的解决方案
+  -
+    type: custom
 ---
+
+### 更新记录
+
+### [2024-12-25](https://github.com/xiaobaoword/Blog/commit/030f0b18f67faf6f29492330a64ba5f6dfe56b8a)
+
+
+
+### [2024-12-24](https://github.com/xiaobaoword/Blog/commit/030f0b18f67faf6f29492330a64ba5f6dfe56b8a)
+
+- 计算机操作系统 2.1.5
+- 计算机组成原理 2.1.1
+- 计算机网络 1.1.3
+- 数据结构 1.2
+- Redis核心技术与实战 01 
+
