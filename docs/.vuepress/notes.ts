@@ -97,8 +97,8 @@ const middlewareRedisNote = defineNoteConfig({
       prefix: 'Redis核心技术与实战',
       collapsed: false,
       items: [
-        '基本架构',
-        '数据结构',
+        '01 基本架构',
+        '02 数据结构',
       ],
     },
   ],
