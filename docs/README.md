@@ -5,7 +5,7 @@ config:
   -
     type: text-image
     title: 格物、致知
-    description: 莫听穿林打叶声，何妨吟啸且徐行<br><br>在职业生涯中学习总结的地方，预计写四个系列：开发案例系列、基础四大件系列、开发语言系列、中间件系列。 
+    description: 莫听穿林打叶声，何妨吟啸且徐行<br><br>在职业生涯中学习总结的地方，预计写四个系列：基础四大件系列、开发语言系列、中间件系列、开发案例系列。 
     image: /images/plume-1.svg
   -
     type: features
