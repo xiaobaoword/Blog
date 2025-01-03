@@ -13,8 +13,8 @@ export const navbar = defineNavbarConfig([
   { 
     text: '开发语言', 
     items: [
-      { text: 'Golang', icon: 'vscode-icons:file-type-go-gopher', link: '/demo/README.md' },
-      { text: 'PHP',icon: 'vscode-icons:file-type-php2', link: '/demo/README.md' },
+      { text: 'Golang', icon: 'vscode-icons:file-type-go-gopher', link: '/languages/golang/README.md' },
+      { text: 'PHP',icon: 'vscode-icons:file-type-php2', link: '/languages/php/README.md' },
     ]
   },
   { 

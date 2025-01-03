@@ -32,10 +32,11 @@ config:
 
 ### 更新记录
 
-### [2024-12-26](https://github.com/xiaobaoword/Blog/commit/030f0b18f67faf6f29492330a64ba5f6dfe56b8a)
+### [2025-01-03](https://github.com/xiaobaoword/Blog/commit/030f0b18f67faf6f29492330a64ba5f6dfe56b8a)
 
 - 计算机操作系统 2.1.6
 - 计算机组成原理 2.1.3
+- 计算机网络 1.1.3
 - Redis核心技术与实战 02
 
 
@@ -43,7 +44,6 @@ config:
 
 - 计算机操作系统 2.1.5
 - 计算机组成原理 2.1.1
-- 计算机网络 1.1.3
 - 数据结构 1.2
 - Redis核心技术与实战 01 
 

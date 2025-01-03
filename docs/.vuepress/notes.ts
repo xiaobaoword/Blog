@@ -87,6 +87,22 @@ const basicsNetworkNote = defineNoteConfig({
   ]
 })
 
+const languagesGoNote = defineNoteConfig({
+  dir: 'languages/golang',
+  link: '/languages/golang',
+  sidebar: [
+    '',
+    {
+      text: 'Go语言核心36讲',
+      prefix: 'Go语言核心36讲',
+      collapsed: false,
+      items: [
+        '01 工作区和GOPATH',
+      ],
+    },
+  ]
+})
+
 const middlewareRedisNote = defineNoteConfig({
   dir: 'middleware/redis',
   link: '/middleware/redis',
@@ -133,5 +149,6 @@ export const notes = defineNotesConfig({
     middlewareRedisNote,
     middlewareKafkaNote,
     examplesHighConcurrencyFlashSaleSystemNote,
+    languagesGoNote,
   ],
 })
