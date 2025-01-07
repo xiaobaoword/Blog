@@ -97,7 +97,7 @@ const languagesGoNote = defineNoteConfig({
       prefix: 'Go语言核心36讲',
       collapsed: false,
       items: [
-        '01 工作区和GOPATH',
+        '模块一：Go语言基础知识',
       ],
     },
   ]

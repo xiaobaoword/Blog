@@ -31,5 +31,12 @@ export const navbar = defineNavbarConfig([
       { text: '微信开发', link: '/demo/README.md' },
     ]
   },
+  { 
+    text: '疑难问题', 
+    icon: 'twemoji:light-bulb' ,
+    items: [
+      { text: 'Charles', link: '/question/charles/' },
+    ]
+  },
   { text: '在线导航', link: '/tools/', icon: 'fa-location-arrow' },
 ])

@@ -32,7 +32,7 @@ config:
 
 ### 更新记录
 
-### [2025-01-03](https://github.com/xiaobaoword/Blog/commit/030f0b18f67faf6f29492330a64ba5f6dfe56b8a)
+### [2025-01-03](https://github.com/xiaobaoword/Blog/commit/13917aaf4648d9f8d3d1f73ed10149ed080de5d0)
 
 - 计算机操作系统 2.1.6
 - 计算机组成原理 2.1.3
