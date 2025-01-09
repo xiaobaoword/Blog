@@ -22,6 +22,7 @@ export const navbar = defineNavbarConfig([
     items: [
       { text: 'Redis', link: '/middleware/redis/README.md' },
       { text: 'Kafka', link: '/middleware/kafka/README.md' },
+      { text: 'Elasticsearch', link: '/middleware/elasticsearch/README.md' },
     ]
   },
   { 
@@ -31,12 +32,6 @@ export const navbar = defineNavbarConfig([
       { text: '微信开发', link: '/demo/README.md' },
     ]
   },
-  { 
-    text: '疑难问题', 
-    icon: 'twemoji:light-bulb' ,
-    items: [
-      { text: 'Charles', link: '/question/charles/' },
-    ]
-  },
+  { text: '疑难问题', link: '/question/README.md', icon: '' },
   { text: '在线导航', link: '/tools/', icon: 'fa-location-arrow' },
 ])

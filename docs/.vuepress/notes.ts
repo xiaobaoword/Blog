@@ -126,6 +126,23 @@ const middlewareKafkaNote = defineNoteConfig({
   sidebar: ['', '学习笔记', '源码理解-1' ],
 })
 
+const middlewareElasticsearchNote = defineNoteConfig({
+  dir: 'middleware/elasticsearch',
+  link: '/middleware/elasticsearch',
+  sidebar: [
+    '',
+    {
+      text: 'Ela...核心技术与实战',
+      prefix: 'Elasticsearch核心技术与实战',
+      collapsed: false,
+      items: [
+        '01 概述',
+        '02 安装上手',
+        '03 入门',
+      ],
+    },
+  ],
+})
 
 const examplesHighConcurrencyFlashSaleSystemNote = defineNoteConfig({
   dir: 'examples/高并发促销活动系统开发',
@@ -133,6 +150,15 @@ const examplesHighConcurrencyFlashSaleSystemNote = defineNoteConfig({
   sidebar: [
     '',
     '线上抽奖',
+  ]
+})
+
+const questionNote = defineNoteConfig({
+  dir: 'question',
+  link: '/question',
+  sidebar: [
+    '',
+    'charles',
   ]
 })
 
@@ -148,7 +174,9 @@ export const notes = defineNotesConfig({
     basicsNetworkNote,
     middlewareRedisNote,
     middlewareKafkaNote,
+    middlewareElasticsearchNote,
     examplesHighConcurrencyFlashSaleSystemNote,
     languagesGoNote,
+    questionNote,
   ],
 })
