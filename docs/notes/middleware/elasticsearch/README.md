@@ -7,7 +7,7 @@ permalink: /middleware/elasticsearch/
 
 ## 学习资料
 
-[极客时间-Elasticsearch核心技术与实战 阮一鸣](https://time.geekbang.org/course/intro/100030501)
+[极客时间-Elasticsearch核心技术与实战 阮一鸣](https://time.geekbang.org/course/intro/100030501) [🔨](https://www.youtube.com/playlist?list=PLn5XLkWHBxyuTUqxpuwdPEwO3ZoxwhkyS)
 
 [Elastic 中国社区官方博客](https://elasticstack.blog.csdn.net/?type=blog)
 
