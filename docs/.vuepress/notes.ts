@@ -132,15 +132,22 @@ const middlewareElasticsearchNote = defineNoteConfig({
   sidebar: [
     '',
     {
-      text: 'Ela...核心技术与实战',
-      prefix: 'Elasticsearch核心技术与实战',
+      text: '学习资料',
       collapsed: false,
+      prefix: '学习资料',
       items: [
-        '01 概述',
-        '02 安装上手',
-        '03 入门',
-      ],
-    },
+        {
+          text: 'Ela...核心技术与实战',
+          prefix: 'Elasticsearch核心技术与实战',
+          collapsed: true,
+          items: [
+            '第1章 概述',
+            '第2章 安装上手',
+            '第3章 入门',
+          ],
+        },
+      ]
+    }
   ],
 })
 

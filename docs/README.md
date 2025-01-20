@@ -32,6 +32,10 @@ config:
 
 ### 更新记录
 
+### [2025-01-17](https://github.com/xiaobaoword/Blog/commit/eab47400cd0b450122aeeb5b33c25ef154e16143)
+
+- Elasticsearch核心技术与实战 03
+
 ### [2025-01-09](https://github.com/xiaobaoword/Blog/commit/eab47400cd0b450122aeeb5b33c25ef154e16143)
 
 - Elasticsearch核心技术与实战 03
