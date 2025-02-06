@@ -6,7 +6,7 @@ permalink: /middleware/elasticsearch/
 
 ## 概述
 
-Elasticsearch 是一个 **分布式** 的、基于 Lucene 的 **搜索引擎** 和 **分析引擎**。
+Elasticsearch 是 **JAVA** 语言开发基于 **Lucene** 一个 **分布式** 的、基于 Lucene 的 **搜索引擎** 和 **分析引擎**。
 
 它能够快速地存储、搜索和分析大量数据。
 
@@ -111,6 +111,15 @@ term 是一个在构建倒排索引阶段产生的最小单位，也是一个 Te
 - 词形还原：将词语还原为标准形式（例如，“better” -> “good”）。
 
 - n-gram 生成：为每个 token 生成连续的 n-gram 或前缀 n-gram。
+
+## 问题
+
+### ES写入数据的工作原理是什么？
+
+
+
+### ES查询数据的工作原理是什么？
+
 
 ## 学习资料
 

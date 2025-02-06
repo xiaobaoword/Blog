@@ -19,6 +19,7 @@ const basicsOperatingSystemNote = defineNoteConfig({
       collapsed: false,
       items: [
         '2.1 进程与线程',
+        '2.2 CPU调度',
       ],
     },
   ],
@@ -144,6 +145,7 @@ const middlewareElasticsearchNote = defineNoteConfig({
             '第1章 概述',
             '第2章 安装上手',
             '第3章 入门',
+            '第4章 深入搜索',
           ],
         },
       ]
@@ -170,6 +172,15 @@ const questionNote = defineNoteConfig({
 })
 
 
+const mianjingNote = defineNoteConfig({
+  dir: '面经',
+  link: '/面经',
+  sidebar: [
+    '',
+    '七年整理',
+  ]
+})
+
 
 export const notes = defineNotesConfig({
   dir: 'notes',
@@ -185,5 +196,6 @@ export const notes = defineNotesConfig({
     examplesHighConcurrencyFlashSaleSystemNote,
     languagesGoNote,
     questionNote,
+    mianjingNote,
   ],
 })
